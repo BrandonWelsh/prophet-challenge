@@ -18,7 +18,7 @@ Step 3: Relate the search traffic to stock price patterns.
 
 Step 4: Create a time series model with Prophet." 
 
-(BootcampSpot Module 8 Challenge Overview)
+(copied from BootcampSpot Module 8 Challenge Overview)
 
 ## Dependencies
 Prophet Library, Pandas Library, Datetime Library, Numpy Library
@@ -32,12 +32,24 @@ Run each jupyter notebook cell. That's pretty much it.
 ## Resources Utilized
 This section is dedicated to keep track of what I used to help complete this project:
 
-## Bugs
-When I had to calcluate the monthly median search traffic across all months in Part 1, it kept showing the average of monthly medians of every year rather than one value for the monthly median. To circumvent this, I took an average of the yearly medians.
+70% class notes
 
-Step 3 already had all the answers filled in to the open-ended questions, so I deleted those and replaced them with answers which reflect my own observations of the data.
+30% AI assistance
+
+I was able to stick to the class notes (specifically the ones we made using google collab) for most of the project. Any time I got hung up on something or was getting an error, I had an AI walk me through what went wrong and steps to take to fix my code. It's incredibly useful having an AI assistant while coding, it just knows EVERYTHING.
+
+## Bugs
+Oh boy here we go, there were a few things to note on this one lol:
+
+When I had to calcluate the monthly median search traffic across all months in Part 1, it kept showing the average of monthly medians of every year rather than one single value for the overall monthly median. To circumvent this, I took an average of the yearly medians.
+
+Part 3 already had all the answers filled in to the open-ended questions, so I deleted those and replaced them with answers which reflect my own observations of the data.
+
+In step 3 of Part 4, I could not set the index in the forecast_mercado_trends DataFrame to the ds datetime column because ds was already the index. So I commented out the troublesome code and moved on.
+
+I have no idea what forecast_canada means, I think that was just a typo in the comments left by the curriculum team.
 
 ## Update Log
-1/1/2024: Created github repo. Modified README.md template in accordance with the feedback I recieved on my Module 6 challenge. Finished Step 1, Step 2, and Step 3. Pushed changes to github. Will finish this project tomorrow.
+1/1/2024: Created github repo. Modified my README.md template in accordance with the feedback I recieved on my Module 6 challenge. Finished Step 1, Step 2, and Step 3. Pushed changes to github. I'm tired, I'll finish this project tomorrow.
 
-1/2/2024:
+1/2/2024: Finished Step 4, proofread and proofran entire thing, and got the project ready to submit.
